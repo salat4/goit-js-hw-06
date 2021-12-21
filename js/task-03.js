@@ -24,4 +24,5 @@ const list = images.map((img) => {
 });
 
 ul.insertAdjacentHTML('afterbegin', list);
+list.join("");
 console.log(ul);
