@@ -12,13 +12,11 @@ function onFormSubmit(event) {
         password: passForm,
     }
     
-    if (emailForm === '') {
-        alert ('Все поля должны быть заполнены')
-    } else if (passForm === '') {
-        alert ('Все поля должны быть заполнены')
-    } else {
-        formEl.reset();
+    if (emailForm === '' || passForm === '') {
+      return alert ('Все поля должны быть заполнены')
+    } 
+    formEl.reset();
     console.log(formObj);
-    }
+    
     
 };
