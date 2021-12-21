@@ -3,4 +3,8 @@ console.log('Number of categories:', categories.length); // Number of categories
 
 const item = document.querySelectorAll('.item');
 
-item.forEach((e) => console.log('Category:', e.firstElementChild.textContent, 'Elements:', e.lastElementChild.children.length));
+//item.forEach((e) => console.log('Category:', e.firstElementChild.textContent, 'Elements:', e.lastElementChild.children.length));
+
+
+
+const newArray = [...categories];

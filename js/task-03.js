@@ -22,7 +22,5 @@ const list = images.map((img) => {
   let elem = `<li><img src=${imgEl.src} alt=${imgEl.alt} width=${imgEl.width} height=${imgEl.height}></li>`
   return elem;
 });
-
-ul.insertAdjacentHTML('afterbegin', list);
-list.join("");
+ul.insertAdjacentHTML('afterbegin', list.join(""));
 console.log(ul);
