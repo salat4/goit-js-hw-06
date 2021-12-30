@@ -9,3 +9,5 @@ incrementBtn.addEventListener('click', () => {
 decrementBtn.addEventListener('click', () => {
     valueSpan.textContent = counterValue -= 1;
 })
+
+
